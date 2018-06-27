@@ -24,7 +24,7 @@ namespace Web.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Contacting GitHub!";
+            ViewData["Message"] = "Contacting GitHub: Your contact page is mine";
 
             return View();
         }
